@@ -1,0 +1,42 @@
+.burger {
+  width: 380px;
+  height: 40px;
+  border-radius: 15px; 
+  box-shadow: 
+    10px 50px #fddb28, 
+    10px 85px #681f24, 
+    10px 120px #82af15; 
+}
+
+.burger:before {
+  content: "        ▾";
+  white-space: pre;
+  font-size: 120px;
+  line-height: 22px;
+  color: #fddb28;
+  display: block;
+  width: 400px;
+  height: 55px;
+  border-top: 80px solid #f5b230; 
+  border-bottom: 50px solid #f5b230; 
+  border-radius: 30% 30% 20% 20%; 
+}
+
+.burger:after {
+  content: "";
+  display: block;
+  width: 10px;
+  height: 6px;
+  border-radius: 40%;
+  box-shadow: 
+    100px -165px #ffffff,
+    160px -165px #ffffff,
+    230px -165px #ffffff,
+    290px -165px #ffffff,
+
+    60px -135px #ffffff,
+    125px -135px #ffffff,
+    195px -135px #ffffff,
+    255px -135px #ffffff,
+    330px -135px #ffffff;
+}
