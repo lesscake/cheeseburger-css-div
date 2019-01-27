@@ -1,5 +1,5 @@
 
-This is a cheesburger made in CSS with a single empty div.
+This is a cheeseburger made in CSS with a single empty div.
 
 I wrote a step by step tutorial on how I made it here: **[lesscake.com/cheeseburger-css-div](https://www.lesscake.com/cheeseburger-css-div)**.
 
